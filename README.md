@@ -10,21 +10,22 @@
         <link rel="stylesheet" href="../CSS-Styles/Intro.css"/>
       <style>
         div{
-			min-width:100%;
-			min-height:50%;
+			width:100%;
+			height:50%;
 			box-shadow:2px,2px,10px,0px rgba(0,0,0,0.2);
 			background-color:#ffffff;
 			border-radius: 50px, 50px, 50px, 50px;
 			}
 		div.link{
-			max-width:25%;
-			max-height:10%;
+			margin:auto;
+			width:25%;
+			height:15%;
 			box-shadow:2px,2px,10px,0px rgba(0,0,0,0.2);
 			background-color:navy;
 			border-radius: 50px, 50px, 50px, 50px;
           }
         h1{
-          margin:auto;
+          text-align:center;
           color:red;
           }
       </style>
