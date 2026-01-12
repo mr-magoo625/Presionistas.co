@@ -34,6 +34,6 @@
 		<h1>DISCLAIMER</h1>
 		<p>Please note that this entire website is purely fictitional and does not represent an actual business. Rather, it is a school project designed to display my knowledge of coding and web design. Enjoy the website!</p>
 		<div class="link">
-			<a href="mr-magoo625.github.io/Presionistas.co/HomePage.html">Home Page</a>
+			<a href="HomePage.html">Home Page</a>
 		</div>
     </div>
