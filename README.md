@@ -10,8 +10,18 @@
         <link rel="stylesheet" href="../CSS-Styles/Intro.css"/>
       <style>
         div{
-          -webkit-filter:drop-shadow(15px -1px 5px #000000) hue-rotate(90deg);
-                filter:drop-shadow(15px -1px 5px #000000) hue-rotate(90deg);
+			min-width:100%;
+			min-height:50%;
+			box-shadow:2px,2px,10px,0px rgba(0,0,0,0.2);
+			background-color:#ffffff;
+			border-radius: 50px, 50px, 50px, 50px;
+			}
+		div.link{
+			max-width:25%;
+			max-height:10%;
+			box-shadow:2px,2px,10px,0px rgba(0,0,0,0.2);
+			background-color:navy;
+			border-radius: 50px, 50px, 50px, 50px;
           }
         h1{
           margin:auto;
@@ -20,5 +30,9 @@
       </style>
     </head>
     <div>
-      <h1>DISCLAIMER</h1>
+		<h1>DISCLAIMER</h1>
+		<p>Please note that this entire website is purely fictitional and does not represent an actual business. Rather, it is a school project designed to display my knowledge of coding and web design. Enjoy the website!</p>
+		<div class="link">
+			<a href="mr-magoo625.github.io/Presionistas.co/HomePage.html">Home Page</a>
+		</div>
     </div>
