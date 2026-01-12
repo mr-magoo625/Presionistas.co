@@ -29,6 +29,9 @@
           text-align:center;
           color:red;
           }
+		p{
+		  text-align:center;
+		 }
       </style>
     </head>
     <div>
