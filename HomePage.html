@@ -52,27 +52,57 @@
             border-radius: 30px;
             background-color:rgba(255,255,255,0.7);
             }
-        section.grid{
-            display:grid;
-            width:100%;
-            height:100%;
-            grid-template-columns: repeat(2, 45%);
-            grid-template-rows: repeat(2, 100px);
-            grid-template-areas:
-            's t'
-            'b .'
-            ;
-            column-gap:25px;
-            row-gap:25px;
-            justify-content:center;
+       section.container {
+            display: flex; 
+            flex-direction: row;
+            flex-wrap: wrap; 
+            width: 100%;
+            aspect-ratio:1/1;
+            border:2px solid blue;
+           }
+        section div.nm{
+            text-align: center;
+            width: 100%;
             }
-        div.sweaters{
-            grid-area:s;
-            height:1fr;
-            width:1fr;
-            border:2px solid black;
+        section div.sweaters {
+            text-align: center;
+            background-color: cadetblue; 
+            margin: 0% auto;
+            padding: 5px;
+            width: 40%; 
+            aspect-ratio:1/1;
             background-image: url("/Presionistas.co/images/Coco-sweater.png");
+            border:2px solid black;
             }
+        section div.TS {
+            text-align: center;
+            background-color: cadetblue; 
+            margin: 0% auto;
+            padding: 5px;
+            width: 40%; 
+            apect-ratio:1/1;
+            background-image: url("/Presionistas.co/images/Coco-sweater.png");
+            border:2px solid black;
+            }
+        section div.Bags {
+            text-align: center;
+            background-color: cadetblue; 
+            margin: 0% auto;
+            padding: 5px;
+            width: 40%; 
+            aspect-ratio:1/1;
+            background-image: url("/Presionistas.co/images/Coco-sweater.png");
+            border:2px solid black;
+            }
+        section div.Pillows {
+            text-align: center;
+            background-color: cadetblue;
+            margin: 0% auto;
+            padding: 5px;
+            width: 40%; 
+            aspect-ratio:1/1;
+            background-image: url("/Presionistas.co/images/Coco-sweater.png");
+            border:2px solid black;
             }
         h1.tit{
             display:inline;
@@ -110,8 +140,13 @@
         </div>
         <div class="collections">
             <h2>Collections</h2>
-            <section class="grid">
-                <div class="sweaters"></div>
+            <section class="container">
+                <div class="sweaters"><img src="/images/Coco-sweater.png" alt="Coco Frio Sweater"></div>
+                <div class="TS"><img src="/images/Sazon-TShirt.png" alt="T shirts"></div>
+                <div class="nm"><h4 style="float:left; padding-left:19%; display:inline;">Sweaters</h4><h4 style="float:right; padding-right:20%; display:inline;">T Shirts</h4></div>
+                <div class="Bags"><img src="/images/Coco-Frio-Backpack.png" alt="Accessories"></div>
+                <div class="Pillows"><img src="/images/Sazon-Coaster.png" alt="Miscellaneous"></div>
+                <div class="nm"><h4 style="float:left; padding-left:19%; display:inline;">Accessories</h4><h4 style="float:right; padding-right:18%; display:inline;">Miscellaneous</h4></div>
             </section>
         </div>
     </body>
