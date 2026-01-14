@@ -24,12 +24,13 @@
             justify-content: flex-end;
             }
         div.banner{
-            posistion:fixed;
+            position:fixed;
             left: 0px;
             top:0px;
             width:100%;
-            height:auto;
+            height:6%;
             background-color:orange;
+            z-index:999;
             }
         div.links{
             float:right;
@@ -104,11 +105,26 @@
             /*background-image: url("/Presionistas.co/images/Coco-sweater.png");
             */border:2px solid black;
             }
-        section div img.cn{
+        img.cn{
             object-fit: cover;
             }
         h1.tit{
             display:inline;
+            }
+        div.lc{
+            float:left;  
+            display:inline;
+            width:50%;
+            text-align:center;
+            }
+        div.rc{
+            float:right; 
+            display:inline;
+            width:50%;
+            text-align:center;
+            }
+        .cat{
+            color:black;
             }
     </style>
     </head>
@@ -144,12 +160,34 @@
         <div class="collections">
             <h2>Collections</h2>
             <section class="container">
-                <div class="sweaters"><img class="cn" src="/Presionistas.co/images/Coco-sweater.PNG" alt="Coco Frio Sweater"></div>
-                <div class="TS"><img class="cn" src="/Presionistas.co/images/Sazon-TShirt" alt="T shirts"></div>
-                <div class="nm"><h4 style="float:left; padding-left:19%; display:inline;">Sweaters</h4><h4 style="float:right; padding-right:20%; display:inline;">T Shirts</h4></div>
-                <div class="Bags"><img class="cn" src="/Presionistas.co/images/Coco-Frio-Backpack" alt="Accessories"></div>
-                <div class="Pillows"><img class="cn" src="/Presionistas.co/images/Sazon-Coaster" alt="Miscellaneous"></div>
-                <div class="nm"><h4 style="float:left; padding-left:19%; display:inline;">Accessories</h4><h4 style="float:right; padding-right:18%; display:inline;">Miscellaneous</h4></div>
+                <div class="sweaters">
+                    <a href="/catalog.html"><img class="cn" src="/Presionistas.co/images/Coco-sweater.PNG" alt="Coco Frio Sweater"></a>
+                </div>
+                <div class="TS">
+                    <a href="/catalog.html"><img class="cn" src="/Presionistas.co/images/Sazon-TShirt" alt="T shirts"></a>
+                </div>
+                <div class="nm">
+                    <div class="lc">
+                        <h4><a class="cat" href="/catalog.html">Sweaters</a></h4>
+                    </div>
+                    <div class="rc">
+                        <h4><a  class="cat"  href="/catalog.html">T Shirts</a></h4>
+                    </div>
+                </div>
+                <div class="Bags">
+                    <a href="/catalog.html"><img class="cn" src="/Presionistas.co/images/Coco-Frio-Backpack" alt="Accessories"></a>
+                </div>
+                <div class="Pillows">
+                    <a href="/catalog.html"><img class="cn" src="/Presionistas.co/images/Sazon-Coaster" alt="Miscellaneous"></a>
+                </div>
+                <div class="nm">
+                    <div class="lc">
+                        <h4><a class="cat" href="/catalog.html">Accessories</a></h4>
+                    </div>
+                    <div class="rc">
+                        <h4><a class="cat" href="/catalog.html">Miscellaneous</a></h4>
+                    </div>
+                </div>
             </section>
         </div>
     </body>
