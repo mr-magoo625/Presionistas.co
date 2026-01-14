@@ -10,7 +10,7 @@
     <!--CSS File
         <link rel="stylesheet" href="../CSS-Styles/HomePage.css"/>-->
     <style>
-        div.welcome{
+        div.Catalog-Poster{
             width:100%;
             background-image: url("/Presionistas.co/images/Merch.png"); 
             width: 100%;
@@ -21,7 +21,14 @@
             background-color: #cccccc;
             display:flex;
             flex-direction: column;
-            justify-content: flex-end;
+            justify-content: center;
+            align-items:center;
+            }
+        div.head{
+            width:100%;
+            text-align:center;
+            color:#ffffff;
+            z-index:998;
             }
         div.banner{
             position:fixed;
@@ -215,6 +222,161 @@
                 color:black;
                 }
             }
+        @media (max-width:700px){
+            section.hoodies{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                aspect-ratio:1/1;
+                border:2px solid blue;
+                }
+            section div.sweaters {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                border:2px solid black;
+                }
+            }
+        @media (min-width:700px){
+            section.hoodies {
+                display: flex; 
+                align-items:flex-start;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                border:2px solid blue;
+               }
+            section div.sweaters {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            }
+        @media (max-width:700px){
+            section.camisas{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                aspect-ratio:1/1;
+                border:2px solid blue;
+                }
+            section div.shirts {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                border:2px solid black;
+                }
+            }
+        @media (min-width:700px){
+            section.camisas {
+                display: flex; 
+                align-items:flex-start;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                border:2px solid blue;
+               }
+            section div.shirts {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            }
+        @media (max-width:700px){
+            section.cap{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                aspect-ratio:1/1;
+                border:2px solid blue;
+                }
+            section div.hats {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                border:2px solid black;
+                }
+            }
+        @media (min-width:700px){
+            section.cap {
+                display: flex; 
+                align-items:flex-start;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                border:2px solid blue;
+               }
+            section div.hats {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            @media (max-width:700px){
+            section.crazy{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                aspect-ratio:1/1;
+                border:2px solid blue;
+                }
+            section div.m {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                border:2px solid black;
+                }
+            }
+        @media (min-width:700px){
+            section.crazy {
+                display: flex; 
+                align-items:flex-start;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                border:2px solid blue;
+               }
+            section div.m {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                
+            }
         h1.tit{
             display:inline;
             }
@@ -246,10 +408,13 @@
                 </div>
             </div>
         </div>
-        <div class="welcome">
+        <div class="Catalog-Poster">
+            <div class="head">
+                <h1>Catalog</h1>
+            </div>
         </div>
         <div class="collections">
-            <p>If you already know what you're looking for, just use these collections links to jump to the category that you're looking for. If you just wanna see everything, keep on scrolling! Enjoy!</p>
+            <p>If you already know what you're looking for, just use these collections links to jump to the category that you're looking for. If you just wanna see everything that Presionistas.co has to offer, keep on scrolling! Enjoy!</p>
             <h2>Collections</h2>
             <section class="container">
                 <div class="sweaters">
@@ -296,5 +461,178 @@
                 </div>
             </section>
         </div>
-        
+        <section class="everything">
+            <h2 id="Sweaters">Sweaters</h2>
+            <section class="hoodies">
+                <div class="sweaters">
+                    <img class="cn" src="/Presionistas.co/images/Coco-Sweater.PNG" alt="White Sweater with a 'coco frio design'.">
+                </div>
+                <div class="TS"><img class="cn" src="/Presionistas.co/images/Sazon-CS" alt="Sazon design on a crewneck sweater.">
+                </div>
+                <div class="cnp">
+                    <div class="lc">
+                        <h4>blank sweater</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank sweater</h4>
+                    </div>
+                </div>
+                <div class="Bags">
+                    <img class="cn" src="/Presionistas.co/images/Sazon-fd" alt="Sazon design on the front of an oversize hoodie.">
+                </div>
+                <div class="Pillows"><img class="cn" src="/Presionistas.co/images/Sazon-Bd" alt="Sazon design on the back of an oversize hoodie.">
+                </div>
+                <div class="cnp">
+                    <div class="lc">
+                        <h4>blank sweater</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank sweater</h4>
+                    </div>
+                </div>
+                <div class="nm">  
+                    <div class="lc">
+                        <h4>blank sweater</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank sweater</h4>
+                    </div>
+                    <div class="lc">
+                        <h4>blank sweater</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank sweater</h4>
+                    </div>
+                </div>
+            </section>
+            <h2 id="Shirts">Shirts</h2>
+            <section class="camisas">
+                <div class="shirts">
+                    <img class="cn" src="/Presionistas.co/images/Coco-Sweater.PNG" alt="White Sweater with a 'coco frio design'.">
+                </div>
+                <div class="TS"><img class="cn" src="/Presionistas.co/images/Sazon-TShirt" alt="Man Wearing a T-Shirt with a 'Sazon' design.">
+                </div>
+                <div class="cnp">
+                    <div class="lc">
+                        <h4>blank shirt</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank shirt</h4>
+                    </div>
+                </div>
+                <div class="Bags">
+                    <img class="cn" src="/Presionistas.co/images/Coco-Frio-Backpack" alt="Woman wearing a 'coco frio' backpack.">
+                </div>
+                <div class="Pillows"><img class="cn" src="/Presionistas.co/images/Sazon-Coaster" alt="A small coaster with a 'sazon' design on it.">
+                </div>
+                <div class="cnp">
+                    <div class="lc">
+                        <h4>blank shirt</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank shirt</h4>
+                    </div>
+                </div>
+                <div class="nm">  
+                    <div class="lc">
+                        <h4>blank shirt</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank shirt</h4>
+                    </div>
+                    <div class="lc">
+                        <h4>blank shirt</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank shirt</h4>
+                    </div>
+                </div>
+            </section>
+             <h2 id="Accessories">Accessories</h2>
+            <section class="cap">
+                <div class="hats">
+                    <img class="cn" src="/Presionistas.co/images/Coco-Sweater.PNG" alt="White Sweater with a 'coco frio design'.">
+                </div>
+                <div class="TS"><img class="cn" src="/Presionistas.co/images/Sazon-TShirt" alt="Man Wearing a T-Shirt with a 'Sazon' design.">
+                </div>
+                <div class="cnp">
+                    <div class="lc">
+                        <h4>blank acc</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank acc</h4>
+                    </div>
+                </div>
+                <div class="Bags">
+                    <img class="cn" src="/Presionistas.co/images/Coco-Frio-Backpack" alt="Woman wearing a 'coco frio' backpack.">
+                </div>
+                <div class="Pillows"><img class="cn" src="/Presionistas.co/images/Sazon-Coaster" alt="A small coaster with a 'sazon' design on it.">
+                </div>
+                <div class="cnp">
+                    <div class="lc">
+                        <h4>blank acc</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank acc</h4>
+                    </div>
+                </div>
+                <div class="nm">  
+                    <div class="lc">
+                        <h4>blank acc</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank acc</h4>
+                    </div>
+                    <div class="lc">
+                        <h4>blank acc</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank acc</h4>
+                    </div>
+                </div>
+            </section>
+            <h2 id="Accessories">Miscellaneous Extras</h2>
+            <section class="crazy">
+                <div class="m">
+                    <img class="cn" src="/Presionistas.co/images/Coco-Sweater.PNG" alt="White Sweater with a 'coco frio design'.">
+                </div>
+                <div class="TS"><img class="cn" src="/Presionistas.co/images/Sazon-TShirt" alt="Man Wearing a T-Shirt with a 'Sazon' design.">
+                </div>
+                <div class="cnp">
+                    <div class="lc">
+                        <h4>blank extra</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank extra</h4>
+                    </div>
+                </div>
+                <div class="Bags">
+                    <img class="cn" src="/Presionistas.co/images/Coco-Frio-Backpack" alt="Woman wearing a 'coco frio' backpack.">
+                </div>
+                <div class="Pillows"><img class="cn" src="/Presionistas.co/images/Sazon-Coaster" alt="A small coaster with a 'sazon' design on it.">
+                </div>
+                <div class="cnp">
+                    <div class="lc">
+                        <h4>blank extra</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank extra</h4>
+                    </div>
+                </div>
+                <div class="nm">  
+                    <div class="lc">
+                        <h4>blank extra</h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank extra</h4>
+                    </div>
+                    <div class="lc">
+                        <h4>blank extra<h4>
+                    </div>
+                    <div class="rc">
+                        <h4>blank extra</h4>
+                    </div>
+                </div>
+            </section>
+        </section>
     </body>
