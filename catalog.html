@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="author" content="Uncle Himothy, Presion">
+		<meta name="keywords" content="mr-magoo, Presion, Presionista, Presionistas.co, Puerto Rico, Sazon">
+		<meta name="description" content="A site I developed as part of a Web Design Course. Please check it out!">
+        <title>Catalog</title>
+    <!--CSS File
+        <link rel="stylesheet" href="../CSS-Styles/HomePage.css"/>-->
+    <style>
+        div.welcome{
+            width:100%;
+            background-image: url("/Presionistas.co/images/Merch.png"); 
+            width: 100%;
+            height:400px;
+            background-size: cover;
+            background-repeat: repeat-x; 
+            background-position: center;
+            background-color: #cccccc;
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            }
+        div.banner{
+            position:fixed;
+            left: 0px;
+            top:0px;
+            width:100%;
+            height:auto;
+            background-color:orange;
+            z-index:999;
+            }
+        img.logo{
+            width:30px;
+            height:auto;
+            margin-left:2%;
+            margin-top:1%;
+            }
+        div.logo{
+            float:left;
+            display:inline;
+            width:10%;
+            }
+        div.tit{
+            float:left;
+            width:40%;
+            display:inline;
+            }
+        div.anchors{
+            float:right;
+            width:40%;
+            display:inline;
+            }
+        div.links{
+            float:right;
+            display:inline;
+            text-align:center;
+            padding:5px;
+            }
+        @media (max-width:700px){
+            section.container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                aspect-ratio:1/1;
+                border:2px solid blue;
+                }
+            section div.cnp{
+                text-align: center;
+                width: 100%;
+                border:5px dashed red;
+                }
+            section div.nm{
+                display:none;
+                }
+            section div.sweaters {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                border:2px solid black;
+                }
+            section div.TS {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                apect-ratio:1/1;
+                border:2px solid black;
+                }
+            section div.Bags {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                /*background-image: url("/Presionistas.co/images/Coco-sweater.png");
+                */border:2px solid black;
+                }
+            section div.Pillows {
+                text-align: center;
+                background-color: cadetblue;
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                /*background-image: url("/Presionistas.co/images/Coco-sweater.png");
+                */border:2px solid black;
+                }
+            img.cn{
+                object-fit: cover;
+                max-width:100%;
+                height:auto;
+                }
+            h1.tit{
+                display:inline;
+                }
+            div.lc{
+                float:left;  
+                display:inline;
+                width:50%;
+                text-align:center;
+                }
+            div.rc{
+                float:right; 
+                display:inline;
+                width:50%;
+                text-align:center;
+                }
+            .cat{
+                color:black;
+                }
+            }
+        @media (min-width:700px){
+            section.container {
+                display: flex; 
+                align-items:flex-start;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                border:2px solid blue;
+               }
+            section div.nm{
+                width:100%;
+                border:2px solid orange;
+                }
+            section div.cnp{
+                display:none;
+                }
+            section div.sweaters {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            section div.TS {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            section div.Bags {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            section div.Pillows {
+                text-align: center;
+                background-color: cadetblue;
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            img.cn{
+                object-fit: cover;
+                max-width:100%;
+                height:auto;
+                }
+            div.lc{
+                float:left;  
+                display:inline;
+                width:25%;
+                text-align:center;
+                }
+            div.rc{
+                float:right; 
+                display:inline;
+                width:25%;
+                text-align:center;
+                }
+            .cat{
+                color:black;
+                }
+            }
+        h1.tit{
+            display:inline;
+            }
+    </style>
+    </head>
+    <body>
+        <div class="banner">
+            <div class="logo">
+                <img class="logo" src="/Presionistas.co/images/Coqui.png" alt="Coqui logo">
+            </div>
+            <div class="tit">
+                <h1 class="tit">Presionistas.co</h1>
+            </div>
+            <div class="anchors">
+                <div class="links">
+                <a href="/about-us.html">About Us</a>
+                </div>
+                <div class="links">
+                    <a href="/support.html">Support Us</a>
+                </div>
+                <div class="links">
+                    <a href="/music.html">Music</a>
+                </div>
+                <div class="links">
+                    <a href="/order.html">Order</a>
+                </div>
+                <div class="links">
+                    <a href="/catalog.html">Browse</a>
+                </div>
+            </div>
+        </div>
+        <div class="welcome">
+        </div>
+        <div class="collections">
+            <p>If you already know what you're looking for, just use these collections links to jump to the category that you're looking for. If you just wanna see everything, keep on scrolling! Enjoy!</p>
+            <h2>Collections</h2>
+            <section class="container">
+                <div class="sweaters">
+                    <a href="/catalog.html"><img class="cn" src="/Presionistas.co/images/Coco-Sweater.PNG" alt="White Sweater with a 'coco frio design'."></a>
+                </div>
+                <div class="TS">
+                    <a href="/catalog.html"><img class="cn" src="/Presionistas.co/images/Sazon-TShirt" alt="Man Wearing a T-Shirt with a 'Sazon' design."></a>
+                </div>
+                <div class="cnp">
+                    <div class="lc">
+                        <h4><a class="cat" href="/catalog.html#Sweaters">Sweaters</a></h4>
+                    </div>
+                    <div class="rc">
+                        <h4><a  class="cat"  href="/catalog.html#Shirts">Shirts</a></h4>
+                    </div>
+                </div>
+                <div class="Bags">
+                    <a href="/catalog.html"><img class="cn" src="/Presionistas.co/images/Coco-Frio-Backpack" alt="Woman wearing a 'coco frio' backpack."></a>
+                </div>
+                <div class="Pillows">
+                    <a href="/catalog.html"><img class="cn" src="/Presionistas.co/images/Sazon-Coaster" alt="A small coaster with a 'sazon' design on it."></a>
+                </div>
+                <div class="cnp">
+                    <div class="lc">
+                        <h4><a class="cat" href="/catalog.html#Accessories">Accessories</a></h4>
+                    </div>
+                    <div class="rc">
+                        <h4><a class="cat" href="/catalog.html#Miscellaneous">Miscellaneous</a></h4>
+                    </div>
+                </div>
+                <div class="nm">  
+                    <div class="lc">
+                        <h4><a class="cat" href="/catalog.html#Sweaters">Sweaters</a></h4>
+                    </div>
+                    <div class="rc">
+                        <h4><a class="cat" href="/catalog.html#Miscellaneous">Miscellaneous</a></h4>
+                    </div>
+                    <div class="lc">
+                        <h4><a  class="cat"  href="/catalog.html#Shirts">Shirts</a></h4>
+                    </div>
+                    <div class="rc">
+                        <h4><a class="cat" href="/catalog.html#Accessories">Accessories</a></h4>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+    </body>
