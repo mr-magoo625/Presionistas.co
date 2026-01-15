@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Mini golf Scorecard</title>
+    <!--CSS File
+        <link rel="stylesheet" href="../CSS-Styles/style.css"/>-->
+    <style>
+        div.music-post{
+            width:100%;
+            background-image: url("/Presionistas.co/images/Island.avif"); 
+            width: 100%;
+            height:400px;
+            background-size: cover;
+            background-repeat: repeat-x; 
+            background-position: center;
+            background-color: #cccccc;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            }
+         div.head{
+             background-color:rgba(2,2,2,0.4);
+             width:100%;
+            text-align:center; font-size:2.5em;
+            color:orange;
+            z-index:998;
+            }
+        div.banner{
+            position:fixed;
+            left: 0px;
+            top:0px;
+            width:100%;
+            height:auto;
+            background-color:orange;
+            z-index:999;
+            }
+        img.logo{
+            width:30px;
+            height:auto;
+            margin-left:2%;
+            margin-top:1%;
+            }
+        div.logo{
+            float:left;
+            display:inline;
+            width:10%;
+            }
+        div.tit{
+            float:left;
+            width:40%;
+            display:inline;
+            }
+        div.anchors{
+            float:right;
+            width:40%;
+            display:inline;
+            }
+        div.links{
+            float:right;
+            display:inline;
+            text-align:center;
+            padding:5px;
+            }
+        h1.tit{
+            display:inline;
+            }
+        ul.custom-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul.custom-list li::before {
+            content: "⭐ ";
+            color: gold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        section.container{
+            border:2px solid blue;
+            display: grid;
+            width:100%;
+            height:100%;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-areas:
+            'po mp'
+            'thirtytwo mp'
+            '. mp'
+            '. mp'
+            '. mp'
+            ;
+            column-gap:0px;
+            row-gap:0px;
+            justify-content:center;
+            }
+        img.mp{
+            grid-area:mp;
+            margin:5%;
+            width:90%;
+            }
+        div.studio{
+            background-color:gray;
+            grid-area:mp;
+            }
+    </style>
+    </head>
+    <body>
+         <div class="banner">
+            <div class="logo">
+                <img class="logo" src="/Presionistas.co/images/Coqui.png" alt="Coqui logo">
+            </div>
+            <div class="tit">
+                <a href="/Presionistas.co/HomePage.html" class="cat"><h1 class="tit" >Presionistas.co</h1></a>
+            </div>
+            <div class="anchors">
+                <div class="links">
+                <a href="about-us.html">About Us</a>
+                </div>
+                <div class="links">
+                    <a href="support.html">Support Us</a>
+                </div>
+                <div class="links">
+                    <a href="music.html">Music</a>
+                </div>
+                <div class="links">
+                    <a href="order.html">Order</a>
+                </div>
+                <div class="links">
+                    <a href="catalog.html">Browse</a>
+                </div>
+            </div>
+        </div>
+        <div class="music-post">
+            <div class="head">
+                <h1>About Us</h1>
+            </div>
+        </div>
+        <div>
+            <h2>This is the team!</h2>
+            <p>It's a small but mighty group who carries the ways of sazon. Only 6 people! Still, they make a concious effort pa' meterle presion every single day.The PResionistas, established in October of 2024 were a group of people joined by the ties of Sazón in order to share the gift of Presión with the world. Constantly seeking to improve themselves, they stay a tight knit group of individuals who stop, collaborate, and listen in order to enhance each other's skills. Since their founding, their levels of Presión have increased exponentially, and they have added new members to their cause. Their message to the world: Stay rizzy. Meet them now!</p>
+            <ul>
+                <h3><li>The Rabbit</li></h3>
+                        <p>Know for her speed, efficiency and creativity, the Rabbit has inspired many sazon lovers, and even this webpage!</p>
+                <h3><li>Uncle Himothy</li></h3>
+                        <p>A founding member of the Presionistas, his prescence simply magnifies the effect of the sazon involved in this website by boosting the credibility.</p>
+                <h3><li>Too Sheisty</li></h3>
+                        <p>Partner in rizz with Too Nasty, she uses extreme rizz techniques pa meterle sazon.</p>
+                <h3><li>The Rabbit</li></h3>
+                        <p>Counterpart of Too Sheisty, she has so much sazon that she immeadiately boosts the presion level of those around her.</p>
+                <h3><li>Monkey</li></h3>
+                        <p>This man has helped to encourage the developement of the website and is just too funny.</p>
+                <h3><li>Double T</li></h3>
+                        <p>Definitely a smart one, but lacking a bit in sazon. However, that's what the rest of the presionistas are there for! He has smart ideas, but they can be dangerous if you push him. Beware the stupidity of Double T...</p>
+            </ul>
