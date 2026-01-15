@@ -1,4 +1,3 @@
-<!--# Presionistas.co-->
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
@@ -11,33 +10,30 @@
         <link rel="stylesheet" href="../CSS-Styles/Intro.css"/>
       <style>
         div{
-			width:100%;
-			height:50%;
+			min-width:100%;
+			min-height:50%;
 			box-shadow:2px,2px,10px,0px rgba(0,0,0,0.2);
 			background-color:#ffffff;
 			border-radius: 50px, 50px, 50px, 50px;
 			}
 		div.link{
-			margin:auto;
-			width:25%;
-			height:15%;
+			max-width:25%;
+			max-height:10%;
+            border: 2px solid black;
 			box-shadow:2px,2px,10px,0px rgba(0,0,0,0.2);
 			background-color:navy;
 			border-radius: 50px, 50px, 50px, 50px;
           }
         h1{
-          text-align:center;
+          margin:auto;
           color:red;
           }
-		p{
-		  text-align:center;
-		 }
       </style>
     </head>
     <div>
 		<h1>DISCLAIMER</h1>
 		<p>Please note that this entire website is purely fictitional and does not represent an actual business. Rather, it is a school project designed to display my knowledge of coding and web design. Enjoy the website!</p>
 		<div class="link">
-			<a href="HomePage.html">Home Page</a>
+			<a href="mr-magoo625.github.io/Presionistas.co/HomePage.html">Home Page</a>
 		</div>
     </div>
