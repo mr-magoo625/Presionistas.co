@@ -1,0 +1,364 @@
+    <style>
+        div.Catalog-Poster{
+            width:100%;
+            background-image: url("/Presionistas.co/images/Merch.png"); 
+            width: 100%;
+            height:400px;
+            background-size: cover;
+            background-repeat: repeat-x; 
+            background-position: center;
+            background-color: #cccccc;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            }
+        div.head{
+            background-color:rgba(2,2,2,0.4);
+            width:100%;
+            text-align:center; font-size:2.5em;
+            color:rgb(0,150,255);
+            z-index:998;
+            }
+        div.banner{
+            position:fixed;
+            left: 0px;
+            top:0px;
+            width:100%;
+            height:auto;
+            background-color:orange;
+            z-index:999;
+            }
+        img.logo{
+            width:30px;
+            height:auto;
+            margin-left:2%;
+            margin-top:1%;
+            }
+        div.logo{
+            float:left;
+            display:inline;
+            width:10%;
+            }
+        div.tit{
+            float:left;
+            width:40%;
+            display:inline;
+            }
+        div.anchors{
+            float:right;
+            width:40%;
+            display:inline;
+            }
+        div.links{
+            float:right;
+            display:inline;
+            text-align:center;
+            padding:5px;
+            }
+        @media (max-width:700px){
+            section.container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                aspect-ratio:1/1;
+                }
+            section div.cnp{
+                text-align: center;
+                width: 100%;
+                }
+            section div.nm{
+                display:none;
+                }
+            section div.sweaters {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                border:2px solid black;
+                }
+            section div.TS {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                apect-ratio:1/1;
+                border:2px solid black;
+                }
+            section div.Bags {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                border:2px solid black;
+                }
+            section div.Pillows {
+                text-align: center;
+                background-color: cadetblue;
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                border:2px solid black;
+                }
+            img.cn{
+                object-fit: cover;
+                max-width:100%;
+                height:auto;
+                }
+            h1.tit{
+                display:inline;
+                }
+            div.lc{
+                float:left;  
+                display:inline;
+                width:50%;
+                text-align:center;
+                }
+            div.rc{
+                float:right; 
+                display:inline;
+                width:50%;
+                text-align:center;
+                }
+            .cat{
+                color:black;
+                }
+            }
+        @media (min-width:700px){
+            section.container {
+                display: flex; 
+                align-items:flex-start;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+               }
+            section div.nm{
+                width:100%;
+                }
+            section div.cnp{
+                display:none;
+                }
+            section div.sweaters {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            section div.TS {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            section div.Bags {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            section div.Pillows {
+                text-align: center;
+                background-color: cadetblue;
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            img.cn{
+                object-fit: cover;
+                max-width:100%;
+                height:auto;
+                }
+            div.lc{
+                float:left;  
+                display:inline;
+                width:25%;
+                text-align:center;
+                }
+            div.rc{
+                float:right; 
+                display:inline;
+                width:25%;
+                text-align:center;
+                }
+            .cat{
+                color:black;
+                }
+            }
+        @media (max-width:700px){
+            section.hoodies{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                aspect-ratio:1/1;
+                }
+            section div.sweaters {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                border:2px solid black;
+                }
+            }
+        @media (min-width:700px){
+            section.hoodies {
+                display: flex; 
+                align-items:flex-start;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+               }
+            section div.sweaters {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            }
+        @media (max-width:700px){
+            section.camisas{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                aspect-ratio:1/1;
+                }
+            section div.shirts {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                border:2px solid black;
+                }
+            }
+        @media (min-width:700px){
+            section.camisas {
+                display: flex; 
+                align-items:flex-start;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+               }
+            section div.shirts {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            }
+        @media (max-width:700px){
+            section.cap{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                aspect-ratio:1/1;
+                }
+            section div.hats {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                border:2px solid black;
+                }
+            }
+        @media (min-width:700px){
+            section.cap {
+                display: flex; 
+                align-items:flex-start;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+               }
+            section div.hats {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            }
+        @media (max-width:700px){
+            section.crazy{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+                aspect-ratio:1/1;
+                }
+            section div.m {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 40%; 
+                aspect-ratio:1/1;
+                border:2px solid black;
+                }
+            }
+        @media (min-width:700px){
+            section.crazy {
+                display: flex; 
+                align-items:flex-start;
+                flex-direction: row;
+                flex-wrap: wrap; 
+                width: 100%;
+               }
+            section div.m {
+                text-align: center;
+                background-color: cadetblue; 
+                margin: 0% auto;
+                padding: 5px;
+                width: 20%; 
+                aspect-ratio:1/1;
+                height:auto;
+                border:2px solid black;
+                }
+            }
+            
+        h1.tit{
+            display:inline;
+            }
+        td, th{
+            border:2px solid black;
+            }
+    </style>
