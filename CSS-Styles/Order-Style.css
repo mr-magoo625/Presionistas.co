@@ -1,4 +1,7 @@
 <style>
+section p{
+            color:blue;
+            }
         div.music-post{
             width:100%;
             background-image: url("../images/order.jpg"); 
