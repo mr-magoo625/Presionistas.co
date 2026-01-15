@@ -1,10 +1,10 @@
 <style>
-section p{
+        section p{
             color:blue;
             }
         div.welcome{
             width:100%;
-            background-image: url("../../Presionistas.co/images/Welcome.jpeg"); 
+            background-image:url("Presionistas.co/images/Welcome.jpeg"); 
             width: 100%;
             height:400px;
             background-size: cover;
