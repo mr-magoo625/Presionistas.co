@@ -156,11 +156,9 @@
                 flex-direction: row;
                 flex-wrap: wrap; 
                 width: 100%;
-                border:2px solid blue;
                }
             section div.nm{
                 width:100%;
-                border:2px solid orange;
                 }
             section div.cnp{
                 display:none;
