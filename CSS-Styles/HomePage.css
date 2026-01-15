@@ -4,7 +4,7 @@
             }
         div.welcome{
             width:100%;
-            background-image: url("/Presionistas.co/images/Welcome.jpeg"); 
+            background-image: url("../images/Welcome.jpeg"); 
             width: 100%;
             height:400px;
             background-size: cover;
